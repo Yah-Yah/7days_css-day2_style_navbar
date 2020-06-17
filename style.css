@@ -6,3 +6,31 @@ html, body {
 /* DON'T TOUCH THIS! */
 
 /* Your goal is to turn basic HTML into a responsive, functional navbar, which includes both arranging the items and styling them. The navbar must stretch across the whole page & have a background color set. The items must be arranged horizontally & be placed below the title, which is centered in the middle of the navbar. Good luck! */
+
+/* My code: */
+a {
+  color: darkslategray;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: navy;
+}
+
+.navbar {
+  align-items: center;
+  background-color: paleturquoise;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.menu {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.menu-item {
+  padding: 8px 16px;
+}
